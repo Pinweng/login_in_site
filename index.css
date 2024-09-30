@@ -22,6 +22,10 @@
   src: url(./src/fonts/Roboto.ttf), type("truetype");
 }
 
+h1, h2, h3{
+  font-family: Montserrat;
+}
+
 h1{
   font-size: 5.61rem;
 }
@@ -48,7 +52,7 @@ small{
 }
 
 body{
-  
+  font-family: Roboto;
   display: flex;
   height: 100vh;
   .cont{
