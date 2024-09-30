@@ -87,7 +87,7 @@ body{
 
 @media (min-width: 992px){
   .container{
-  
+    width: 90%;
   }
   html{
     font-size: 1.125rem;
