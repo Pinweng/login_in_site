@@ -97,6 +97,37 @@ body {
   }
 }
 
+.right{
+  background-color: var(--color1);
+  img{
+    height: 6.25rem;
+  }
+  form{
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    label{
+      display: none;
+    }
+
+    .input-container{
+      width: 100%;
+      
+      input{
+        width: 100%;
+        padding: 1rem 2rem;
+        border-radius: .625rem;
+        background-color: var(--color2);
+      }
+    }
+
+  }
+}
+
 .container {
   width: 95%;
   padding-right: 15px;
