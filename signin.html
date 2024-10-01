@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="left cont">
+      <div class="text-container">
+        <h1>SIGN IN</h1>
+        <h6>Sign in into <span>your</span> account!</h6>
+      </div>
+      <img src="./src/public/Sneaker2.png" alt="Colorful abstract sneaker" />
+    </div>
+    <div class="right cont">
+      <div class="right-header">
+        <img src="./src/public/Logo.png" alt="companyname logo" />
+        <h3>SIGN IN</h3>
+      </div>
+      <form class="container" method="post" action="#">
+        <div class="inputs-container">
+          <div class="text-inputs">
+            <div class="input-container">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Username"
+              />
+            </div>
+
+            <div class="input-container">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+          </div>
+
+          <div class="button-inputs">
+            <input class="btn-primary" type="submit" value="Sign in" />
+            <a class="btn-secondary" href="index.html">Sign up</a>
+          </div>
+          <small
+            >Your data is encrypted and not passed on to third parties.</small
+          >
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
