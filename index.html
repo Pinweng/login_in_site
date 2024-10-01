@@ -17,27 +17,28 @@
     <div class="right cont">
       <img src="./src/public/Logo.png" alt="companyname logo">
       <form method="post" action="#">
-        <div class="input-container">
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username" placeholder="Username">
-        </div>
-        
-        <div class="input-container">
-          <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="your@email.com">
-        </div>
-        
-        <div class="input-container">
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password" placeholder="Password">
-        </div>
 
-        <div class="input-container">
-          <label for="confirm-password">Confirm Password</label>
-          <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+        <div class="inputs-container">
+          <div class="input-container">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Username">
+          </div>
+          
+          <div class="input-container">
+            <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="your@email.com">
+          </div>
+          
+          <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+          </div>
+  
+          <div class="input-container">
+            <label for="confirm-password">Confirm Password</label>
+            <input oninput="checkInput()" type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+          </div>
         </div>
-      
-
       </form>
     </div>
   </body>
