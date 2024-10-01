@@ -19,27 +19,59 @@
       <form method="post" action="#">
 
         <div class="inputs-container">
-          <div class="input-container">
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" placeholder="Username">
+          <div class="text-inputs">
+
+            <div class="input-container">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username" placeholder="Username">
+            </div>
+            
+            <div class="input-container">
+              <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="your@email.com">
+            </div>
+            
+            <div class="input-container">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+    
+            <div class="input-container">
+              <label for="confirm-password">Confirm Password</label>
+              <input oninput="checkInput()" type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+            </div>
+
           </div>
           
-          <div class="input-container">
-            <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="your@email.com">
+          <div class="checkbox-inputs">
+            <div class="input-container">
+              
+              <input type="checkbox" name="tos" id="tos">
+              
+              <label for="tos"><small>
+                <span>*</span>
+                Terms of Service</small>
+              </label>
+
+            </div>
+
+            <div class="input-container">
+              
+            <input type="checkbox" name="newsletter" id="newsletter">
+
+            <label for="newsletter"><small>
+              <span>*</span>
+              I want the Newsletter</small>
+            </label>
+
+            </div>
+            
           </div>
-          
-          <div class="input-container">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" placeholder="Password">
-          </div>
-  
-          <div class="input-container">
-            <label for="confirm-password">Confirm Password</label>
-            <input oninput="checkInput()" type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
-          </div>
+
         </div>
+
       </form>
+
     </div>
   </body>
 </html>
